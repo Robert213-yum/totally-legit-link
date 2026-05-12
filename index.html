@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totally Normal Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: white;
+            font-family: 'Impact', sans-serif;
+        }
+
+        .meme-container {
+            text-align: center;
+        }
+
+        img {
+            max-width: 80%;
+            max-height: 70vh;
+            border: 5px solid white;
+            box-shadow: 0 0 20px rgba(255,255,255,0.5);
+        }
+
+        h1 {
+            font-size: 8rem;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="meme-container">
+        <!-- Replace the URL below with your favorite "67 meme" image link -->
+        <img src="https://api.memegen.link/images/custom/_/67.png?background=https://i.imgur.com/8NbaXfW.jpg" alt="67 Meme">
+        <h1>BRUH</h1>
+    </div>
+
+    <!-- Optional: Add a "Bruh" sound effect -->
+    <script>
+        window.addEventListener('click', () => {
+            const audio = new Audio('https://www.myinstants.com/media/sounds/movie_1.mp3');
+            audio.play();
+        }, { once: true });
+    </script>
+
+</body>
+</html>
